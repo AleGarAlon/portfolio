@@ -1,0 +1,105 @@
+#aboutMe {
+
+    margin: 2rem, 2rem;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1rem ;
+}
+#infoBox {
+    display: flex;
+    gap: 4rem;
+    margin: 1rem;
+}
+
+
+#infoBox img {
+    max-width: 20rem;
+    max-height: 40rem;
+    
+}
+
+#myInfo {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+}
+
+.icons {
+    
+    width: 2.2rem;
+    height: 2.2rem;
+
+}
+.social {
+    margin-top: 0.9rem;
+}
+.fontAw {
+    margin: 1rem;
+}
+#imgContact {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.5rem;
+    
+}
+
+#imgContact img {
+    max-width: 4rem;
+    
+}
+
+
+#back  {
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    #infoBox { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #infoBox img {
+        max-width: 20rem;
+        
+    }
+    #myInfo {
+        margin-top: 1rem;
+        
+    }
+    #imgContact {
+        justify-content: center;
+        margin-right: 1.5rem;
+    }
+    .fontAw {
+        margin-top: 1rem;
+    }
+    
+}   
+
+
+@media only screen and (min-width: 501px) and (max-width: 1080px) {
+    #infoBox { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imgContact {
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;
+        
+    }
+    .fontAw {
+        width: 1rem;
+        margin: 1.4rem;
+    }
+
+}
