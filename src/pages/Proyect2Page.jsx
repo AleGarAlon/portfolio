@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Proyect2 from "../assets/HomeboundExplorers.png"
+import proyect2 from "../assets/HomeboundExplorers.png"
 import "./ProyectPage.css"
 const Proyect2Page = () => {
 
@@ -9,7 +9,7 @@ const Proyect2Page = () => {
         <h2>Homebound Explorers</h2>
 
         <p>This proyect is a webpage that offers Activiries to do with kids depending on their age</p>
-        <img src={Proyect2} alt="HomeboundExplorers" />
+        <img src={proyect2} alt="HomeboundExplorers" />
         
         <button onClick={() => window.open("https://homeboundexplorers.adaptable.app/")} className="anchorBtn">
             Try the deploy version 

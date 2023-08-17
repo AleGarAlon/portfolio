@@ -1,8 +1,106 @@
-#homePage {
-    display: block;
-    width: 100%;
+.aboutMe {
     margin: 2rem, 2rem;
-    background-color: #5D6D7E;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+
+.title {
+
+    text-align: left;
+    margin-left: 4rem;
+}
+.infoBox {
+    display: flex;
+    gap: 4rem;
+    margin: 1rem;
+}
+.webDev {
+    display: flex;
+
+}
+.devIcons {
+    margin-top: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+.portrait {
+    max-width: 20rem;
+    max-height: 40rem;
+    
+}
+
+.myInfo {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+.social {
+    width: 2rem;
+    height: 2rem;
+}
+
+.proyects {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.proyectImg {
+    width: 15rem;
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+     
+}
+.subTitle {
+    margin-top: 5rem;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .HomePage {
+        overflow-x: hidden;
+    }
+    .title {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .myInfo {
+        max-width: 20rem;
+    }
+
+    .infoBox { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .infoBox img {
+        max-width: 20rem;  
+    }
+    .filler {
+        display: none;
+    }
+    .devIcons {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .proyects {
+        flex-direction: column;  
+    }
+    
+}   
+
+
+

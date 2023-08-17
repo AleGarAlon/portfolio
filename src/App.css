@@ -1,12 +1,16 @@
 body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #292728;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  align-items: flex-start;
+  overflow-x: hidden;
 }
 
 .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+  overflow: hidden;  
+} 

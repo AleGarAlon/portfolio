@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Proyect3 from "../assets/PurrfectPawrtners.png"
+import proyect3 from "../assets/PurrfectPawtners.png"
 import "./ProyectPage.css"
 const Proyect3Page = () => {
 
@@ -9,7 +9,7 @@ const Proyect3Page = () => {
         <h2>Purrfect pawrtners</h2>
 
         <p>In this project, there are two distinct deployments: one for the backend and API, and another using React for the frontend. The goal is to create an application specifically designed for cat adoption.</p>
-        <img src={Proyect3} alt="Purrfect Pawrtners" />
+        <img src={proyect3} alt="Purrfect Pawrtners" />
         
         <button  onClick={() => window.open("https://legendary-tanuki-442740.netlify.app/")} className="anchorBtn" >
            Try the deploy version
