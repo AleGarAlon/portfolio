@@ -9,6 +9,10 @@
     text-align: center;
 }
 
+.description {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
 .proyectPhoto {
     width: 40rem ;
 }
@@ -23,7 +27,11 @@
     height: 3rem;
 }
 
-
+.use {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
 
 
 
@@ -32,7 +40,7 @@
         width: 15rem ;
     }
     .description {
-        margin: 1rem 1rem;
+        margin: 1rem 2rem;
     }
     .linkIcons {
         width: 2rem;
@@ -40,7 +48,11 @@
     }
     .links {
         margin: 1rem 0;
-    
+    }
+    .use {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
 

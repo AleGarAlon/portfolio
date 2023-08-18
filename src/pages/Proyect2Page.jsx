@@ -3,6 +3,11 @@ import proyect2 from "../assets/HomeboundExplorers.png"
 import GitHub from "../assets/GitHub.png"
 import play from "../assets/play.png"
 import "./ProyectPage.css"
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import JS from "../assets/JS.png"
+import node from "../assets/node.png"
+import mongo from "../assets/mongo.png"
 const Proyect2Page = () => {
 
     return (
@@ -10,7 +15,14 @@ const Proyect2Page = () => {
         
         <h2 className="name">Homebound Explorers</h2>
 
-        <p className="description">This proyect is a webpage that offers Activiries to do with kids depending on their age</p>
+        <p className="description">This proyect is a webpage that offers Activities to do with kids depending on their age</p>
+        <div className="use">
+                        <img className="devIcons" src={html} alt="html" />
+                        <img className="devIcons" src={css} alt="css" />
+                        <img className="devIcons" src={JS} alt="JS" />
+                        <img className="devIcons" src={node} alt="node" />
+                        <img className="devIcons" src={mongo} alt="mongo" />
+                    </div>
         <img className="proyectPhoto" src={proyect2} alt="HomeboundExplorers" />
         
         <div className="links">
