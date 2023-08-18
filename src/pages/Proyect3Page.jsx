@@ -1,27 +1,30 @@
 import { Link } from "react-router-dom";
 import proyect3 from "../assets/PurrfectPawtners.png"
+import GitHub from "../assets/GitHub.png"
+import play from "../assets/play.png"
 import "./ProyectPage.css"
 const Proyect3Page = () => {
 
     return (
-        <div id="proyect">
-        <h1>Proyect 3</h1>
-        <h2>Purrfect pawrtners</h2>
-
-        <p>In this project, there are two distinct deployments: one for the backend and API, and another using React for the frontend. The goal is to create an application specifically designed for cat adoption.</p>
-        <img src={proyect3} alt="Purrfect Pawrtners" />
+        <div className="proyect">
         
-        <button  onClick={() => window.open("https://legendary-tanuki-442740.netlify.app/")} className="anchorBtn" >
-           Try the deploy version
-        </button>
-        <button  onClick={() => window.open("https://github.com/AleGarAlon/Proyect3-front")} className="anchorBtn">
-           Go to the GitHub repository(Front) 
-        </button>
-        <button onClick={() => window.open("https://github.com/AleGarAlon/Proyect3-back")} className="anchorBtn">
-           Go to the GitHub repository(Back)
-        </button> <br />
+        <h2 className="name">Purrfect pawrtners</h2>
+
+        <p className="description">In this project, there are two distinct deployments: one for the backend and API, and another using React for the frontend. The goal is to create an application specifically designed for cat adoption.</p>
+        <img className="proyectPhoto" src={proyect3} alt="Purrfect Pawrtners" />
+
+        <div className="links">
+        <a  href="https://legendary-tanuki-442740.netlify.app/" target="_blank"><img className="linkIcons" src={play} alt="demo" /></a>
+        <div className="linkIcons"></div>
+        <div className="linkIcons"></div>
+        <a  href="https://github.com/AleGarAlon/Proyect3-front" target="_blank"><img className="linkIcons" src={GitHub} alt="github" /></a>
+        <div className="linkIcons"></div>
+        <div className="linkIcons"></div>
+        <a  href="https://github.com/AleGarAlon/Proyect3-back" target="_blank"><img className="linkIcons" src={GitHub} alt="github" /></a>
+        </div>
+        
         <Link to="/">
-            <button id="backBtn">{"<=(goBack)"}</button>
+            <button className="backBtn">{"<=(goBack)"}</button>
         </Link>
         </div>
     )

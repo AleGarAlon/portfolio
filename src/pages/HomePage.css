@@ -16,6 +16,8 @@
 }
 .webDev {
     display: flex;
+    justify-content: space-around;
+
 
 }
 .devIcons {
@@ -40,8 +42,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
-    margin-right: 1rem;
+    gap: 3rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
 }
 
 .social {
@@ -51,8 +54,9 @@
 
 .proyects {
     display: flex;
-    justify-content: center;
-    align-items: center;   
+    justify-content: space-around;
+    align-items: center;
+       
 }
 
 .proyectImg {
@@ -62,7 +66,7 @@
      
 }
 .subTitle {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 
@@ -75,9 +79,12 @@
         text-align: center;
         width: 100%;
         margin: 0;
+        margin-bottom: -3rem;
     }
     .myInfo {
         max-width: 20rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .infoBox { 
@@ -95,7 +102,10 @@
         width: 1.5rem;
         height: 1.5rem;
     }
-    
+    .contact {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .proyects {
         flex-direction: column;  
     }

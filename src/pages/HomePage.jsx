@@ -30,8 +30,6 @@ const AboutMePage = () => {
                     <p>Now, with two young children of my own, I've felt the desire to change my professional path. For this reason, I've decided to become a web developer with the goal of growing professionally and exploring a new range of job opportunities.</p><br />
                     <p>I'm excited about acquiring new skills, contributing to projects, and facing new challenges.</p><br />
                     <div className="webDev">
-                        <img className="filler" src="" alt="" />
-                        <img className="filler" src="" alt="" />
                         <img className="devIcons" src={html} alt="html" />
                         <img className="devIcons" src={css} alt="css" />
                         <img className="devIcons" src={JS} alt="JS" />
@@ -42,13 +40,14 @@ const AboutMePage = () => {
                 </div>
             <img className="portrait" src={portrait} alt="Portrait" />
             </div>
-            <p>alegaralon@gmail.com</p>
-            {/* <div className="contact">
+            
+            <div className="contact">
+                <p>alegaralon@gmail.com</p>
                 <a href=""><img  className="social"src={email} alt="alegaralon@gmail.com" /></a>
-                <a href="https://drive.google.com/file/d/1yocQM_sTb3XUYJ173wDH8p6ArvXUNNoJ/view?usp=drive_link"><img  className="social"src={resume} alt="resume" /></a>
-                <a href="https://www.linkedin.com/in/alegaralon/"><img  className="social"src={linkedin} alt="linkedin" /></a>
-                <a href="https://github.com/AleGarAlon"><img  className="social"src={GitHub} alt="GitHub" /></a>
-            </div> */}
+                <a href="https://drive.google.com/file/d/1yocQM_sTb3XUYJ173wDH8p6ArvXUNNoJ/view?usp=drive_link" target="_blank"><img  className="social"src={resume} alt="resume" /></a>
+                <a href="https://www.linkedin.com/in/alegaralon/" target="_blank"><img  className="social"src={linkedin} alt="linkedin" /></a>
+                <a href="https://github.com/AleGarAlon" target="_blank"><img  className="social"src={GitHub} alt="GitHub" /></a>
+            </div>
 
             <h2 className="subTitle">Proyects</h2>
 
