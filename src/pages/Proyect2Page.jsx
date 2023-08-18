@@ -15,7 +15,7 @@ const Proyect2Page = () => {
         
         <h2 className="name">Homebound Explorers</h2>
 
-        <p className="description">This proyect is a webpage that offers Activities to do with kids depending on their age</p>
+        <p className="description">This proyect is a webpage that offers activities to do with kids depending on their age.</p>
         <div className="use">
                         <img className="devIcons" src={html} alt="html" />
                         <img className="devIcons" src={css} alt="css" />
