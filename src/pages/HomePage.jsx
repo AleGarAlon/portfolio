@@ -27,7 +27,7 @@ const AboutMePage = () => {
             <div className ="infoBox">
                 <div className="myInfo">
                 <p>My name is Alejandro and I'm from Extremadura, Spain. Throughout my years of work experience I've worked as an occupational therapist in a multidisciplinary team providing care for children with special needs.</p><br />
-                <p>"However, I now aspire to change my professional path and explore new horizons. This is why I've decided to transition into web development, with the goal of unleashing my creativity, exploring a diverse range of job opportunities, and experiencing personal as well as professional growth."</p><br />
+                <p>However, I now aspire to change my professional path and explore new horizons. This is why I've decided to transition into web development, with the goal of unleashing my creativity, exploring a diverse range of job opportunities, and experiencing personal as well as professional growth.</p><br />
                 <p>I'm enthusiastic about acquiring new skills, contributing to projects, and facing new challenges.</p><br />
                     <div className="webDev">
                         <img className="devIcons" src={html} alt="html" />
