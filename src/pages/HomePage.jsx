@@ -26,9 +26,9 @@ const AboutMePage = () => {
             <h1 className="title">Alejandro.</h1>
             <div className ="infoBox">
                 <div className="myInfo">
-                <p>My name is Alejandro García, and I'm from Badajoz, Spain. Throughout my years of work experience, I've worked as an occupational therapist in a multidisciplinary team providing care for children with special needs.</p><br />
-                <p>However, I now aspire to change my professional path and explore new horizons. That's why I've decided to transition into web development, aiming to unleash my creativity, explore a different range of job opportunities, and grow personally and professionally.</p><br />
-                <p>I'm enthusiastic about acquiring new skills, contributing to projects, and embracing new challenges.</p><br />
+                <p>My name is Alejandro and I'm from Extremadura, Spain. Throughout my years of work experience I've worked as an occupational therapist in a multidisciplinary team providing care for children with special needs.</p><br />
+                <p>"However, I now aspire to change my professional path and explore new horizons. This is why I've decided to transition into web development, with the goal of unleashing my creativity, exploring a diverse range of job opportunities, and experiencing personal as well as professional growth."</p><br />
+                <p>I'm enthusiastic about acquiring new skills, contributing to projects, and facing new challenges.</p><br />
                     <div className="webDev">
                         <img className="devIcons" src={html} alt="html" />
                         <img className="devIcons" src={css} alt="css" />
@@ -43,7 +43,7 @@ const AboutMePage = () => {
             
             <div className="contact">
                 <p>alegaralon@gmail.com</p>
-                <a href=""><img  className="social"src={email} alt="alegaralon@gmail.com" /></a>
+                <a href=""><img  className="social email"src={email} alt="alegaralon@gmail.com" /></a>
                 <a href="https://drive.google.com/file/d/1aD4-htsEVfxfb6639jxVtjmtwThS613c/view?usp=drive_link" target="_blank"><img  className="social"src={resume} alt="resume" /></a>
                 <a href="https://www.linkedin.com/in/alegaralon/" target="_blank"><img  className="social"src={linkedin} alt="linkedin" /></a>
                 <a href="https://github.com/AleGarAlon" target="_blank"><img  className="social"src={GitHub} alt="GitHub" /></a>

@@ -38,7 +38,7 @@ const Proyect3Page = () => {
         </div>
         
         <Link to="/">
-            <button className="backBtn">{"<=(goBack)"}</button>
+            <button className="backBtn">Back</button>
         </Link>
         </div>
     )
