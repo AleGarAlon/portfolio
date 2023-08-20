@@ -20,7 +20,7 @@ const Proyect1Page = () => {
                         <img className="devIcons" src={css} alt="css" />
                         <img className="devIcons" src={JS} alt="JS" />
                     </div>
-        <img className="proyectPhoto" src={proyect1} alt="AssaultOnSomniumStars" />
+        <a href="https://alegaralon.github.io/AssaultOnSomniumStars/"><img className="proyectPhoto" src={proyect1} alt="AssaultOnSomniumStars" /></a>
         
         <div className="links">
         <a  href="https://alegaralon.github.io/AssaultOnSomniumStars/" target="_blank"><img className="linkIcons" src={play} alt="demo" /></a>
@@ -30,7 +30,7 @@ const Proyect1Page = () => {
         <a  href="https://github.com/AleGarAlon/AssaultOnSomniumStars" target="_blank"><img className="linkIcons" src={GitHub} alt="github" /></a>
         </div>
         <Link to="/">
-            <button className="backBtn">{"<=(goBack)"}</button>
+            <button className="backBtn">Back</button>
         </Link>
         </div>
     )

@@ -26,9 +26,9 @@ const AboutMePage = () => {
             <h1 className="title">Alejandro.</h1>
             <div className ="infoBox">
                 <div className="myInfo">
-                    <p>My name is Alejandro García and I'm from Badajoz, Spain. Throughout all my years of work experience, I've been employed as an occupational therapist in a multidisciplinary team that provides care for children with special needs.</p> <br />
-                    <p>Now, with two young children of my own, I've felt the desire to change my professional path. For this reason, I've decided to become a web developer with the goal of growing professionally and exploring a new range of job opportunities.</p><br />
-                    <p>I'm excited about acquiring new skills, contributing to projects, and facing new challenges.</p><br />
+                <p>My name is Alejandro García, and I'm from Badajoz, Spain. Throughout my years of work experience, I've worked as an occupational therapist in a multidisciplinary team providing care for children with special needs.</p><br />
+                <p>However, I now aspire to change my professional path and explore new horizons. That's why I've decided to transition into web development, aiming to unleash my creativity, explore a different range of job opportunities, and grow personally and professionally.</p><br />
+                <p>I'm enthusiastic about acquiring new skills, contributing to projects, and embracing new challenges.</p><br />
                     <div className="webDev">
                         <img className="devIcons" src={html} alt="html" />
                         <img className="devIcons" src={css} alt="css" />
@@ -52,16 +52,25 @@ const AboutMePage = () => {
             <h2 className="subTitle">Proyects</h2>
 
             <div className="proyects">
-                <Link to="/proyect1">
+                <Link className="linkR" to="/proyect1">
                 <img className="proyectImg" src={Assault} alt="Assault" />
+                <div className = "overlay">
+                    <p>Assault on Somnium Stars</p>
+                </div>
                 </Link>
 
-                <Link to="/proyect2">
+                <Link className="linkR" to="/proyect2">
                 <img className="proyectImg" src={HomeboundExplorers} alt="HomeboundExplorers" />
+                <div className = "overlay">
+                    <p>Homebound Explorers</p>
+                </div>
                 </Link>
 
-                <Link to="/proyect3">
+                <Link className="linkR" to="/proyect3">
                 <img className="proyectImg" src={PurrfectPawtners} alt="PurrfectPawtners" />
+                <div className = "overlay">
+                    <p>Purrfect Pawtners</p>
+                </div>
                 </Link>
             </div>
             
