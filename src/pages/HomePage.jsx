@@ -44,7 +44,7 @@ const AboutMePage = () => {
             <div className="contact">
                 <p>alegaralon@gmail.com</p>
                 <a href=""><img  className="social email"src={email} alt="alegaralon@gmail.com" /></a>
-                <a href="https://drive.google.com/file/d/1UH2OPRvFP9zC_mWLTSK8Ve4YXftaL5hR/view?usp=sharing" target="_blank"><img  className="social"src={resume} alt="resume" /></a>
+                <a href="https://drive.google.com/file/d/1vJoW1oPLe1C08Ime8-3_O_3_h0DI-km3/view?usp=drive_link" target="_blank"><img  className="social"src={resume} alt="resume" /></a>
                 <a href="https://www.linkedin.com/in/alegaralon/" target="_blank"><img  className="social"src={linkedin} alt="linkedin" /></a>
                 <a href="https://github.com/AleGarAlon" target="_blank"><img  className="social"src={GitHub} alt="GitHub" /></a>
             </div>
