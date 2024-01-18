@@ -59,7 +59,7 @@ const AboutMePage = () => {
         <p>alegaralon@gmail.com</p>
         <img className="social email" src={email} alt="alegaralon@gmail.com" />
         <a
-          href="https://drive.google.com/file/d/1cX2sogcRSlFJY3xGxLTWGgXkhuaIXcM2/view?usp=sharing"
+          href="https://drive.google.com/file/d/1a9CT6WQ0T0pNnQvfjcxDcnrK0uB3eR6J/view?usp=drive_link"
           target="_blank"
           rel="noreferrer"
         >
