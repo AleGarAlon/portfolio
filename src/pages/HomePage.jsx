@@ -81,7 +81,7 @@ const AboutMePage = () => {
         </a>
       </div>
 
-      <h2 className="subTitle">Proyects</h2>
+      <h2 className="subTitle">Projects</h2>
 
       <div className="proyects">
         <Link className="linkR" to="/proyect4">
