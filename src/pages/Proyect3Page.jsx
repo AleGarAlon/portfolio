@@ -12,7 +12,7 @@ import react from "../assets/React.png";
 const Proyect3Page = () => {
   return (
     <div className="proyect">
-      <h2 className="name">Purrfect pawrtners</h2>
+      <h2 className="name">Purrfect pawtners</h2>
 
       <p className="description">
         In this project, there are two distinct deployments: One for the backend
