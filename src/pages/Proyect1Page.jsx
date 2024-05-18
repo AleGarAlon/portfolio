@@ -12,7 +12,7 @@ const Proyect1Page = () => {
       <h2 className="name">Assault on Somnium Stars</h2>
 
       <p className="description">
-        This proyect is a game build in one page using DOM manipulation.
+        This project is a game build in one page using DOM manipulation.
       </p>
       <div className="use">
         <img className="devIcons" src={html} alt="html" />
